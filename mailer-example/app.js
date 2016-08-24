@@ -3,9 +3,6 @@
 
 
 // An almost standard azure out-of-the-box setup
-// For this example it is assumed that the user has their own SMTP server or a Gmail ID
-// Gmail ID example can also be replicated for other well known mailing sites
-// This tutorial also assumes that JQuery Ajax is used to call the APIs defined by this example
 var express = require('express'),
 azureMobileApps = require('azure-mobile-apps');
 var path = require('path');
